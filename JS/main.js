@@ -31,21 +31,21 @@ console.log(a, b)
 //fai la somma di tutti gli elementi che sono in posizione dispari
 
 
-// var numeri = [24, 45, 3, 78, 5, 3, 9, 35, 19]
-// console.log(numeri)
+var numeri = [24, 45, 3, 78, 5, 3, 9, 35, 19]
+console.log(numeri)
 
-// var somma = 0;
+var somma = 0;
 
-// for(var i = 0; i < numeri.length; i++) {
-//     console.log(numeri[i]);
-//     console.log([i]);  
+for(var i = 0; i < numeri.length; i++) {
+    console.log(numeri[i]);
+    console.log([i]);  
 
-//     if (i % 2 !== 0 ) {
-//         somma += numeri[i];
-//     }
-// }
+    if (i % 2 !== 0 ) {
+        somma += numeri[i];
+    }
+}
 
-// console.log(somma)
+console.log(somma)
 
 
 
@@ -57,25 +57,25 @@ console.log(a, b)
 // una lista di cognomi, 
 // Gatsby vuole generare una falsa lista di 3 invitati.
 
-// var nomi = ['zoe', 'didier', 'mario', 'chiara'];
-// console.log(nomi)
-// var cognomi = ['ursinni', 'dankan', 'fanizzi', 'giarrusso'];
-// console.log(cognomi)
+var nomi = ['zoe', 'didier', 'mario', 'chiara'];
+console.log(nomi)
+var cognomi = ['ursinni', 'dankan', 'fanizzi', 'giarrusso'];
+console.log(cognomi)
 
-// var nomiCognomi = [];
-// var size = 3
+var nomiCognomi = [];
+var size = 3
 
-// for ( var i = 0; i < size; i++) {
-//     var randomNomiIndex = Math.floor( Math.random() * nomi.length );
-//     var randomCognomiIndex = Math.floor( Math.random() * cognomi.length);
+for ( var i = 0; i < size; i++) {
+    var randomNomiIndex = Math.floor( Math.random() * nomi.length );
+    var randomCognomiIndex = Math.floor( Math.random() * cognomi.length);
     
 
-//     var randomNomiCognomi = nomi[randomNomiIndex] + ' ' + cognomi[randomCognomiIndex];
+    var randomNomiCognomi = nomi[randomNomiIndex] + ' ' + cognomi[randomCognomiIndex];
 
-//     nomiCognomi.push(randomNomiCognomi);
-// }
+    nomiCognomi.push(randomNomiCognomi);
+}
 
-// console.log(nomiCognomi)
+console.log(nomiCognomi)
 
 
 
@@ -86,15 +86,15 @@ console.log(a, b)
 //se è pari stampa il numero, 
 //se è dispari stampa il numero successivo
 
-// var numero = parseInt( prompt('inserice un numero') );
+var numero = parseInt( prompt('inserice un numero') );
 
 
-// if (numero % 2 === 0) {
-//     console.log(numero);
+if (numero % 2 === 0) {
+    console.log(numero);
 
-// } else {
-//     console.log(numero + 1);
-// }
+} else {
+   console.log(numero + 1);
+}
 
 
 
@@ -103,16 +103,16 @@ console.log(a, b)
 // Il programma stampa la somma di tutti i numeri inseriti.
 // Esegui questo programma in due versioni, con il for e con il while
 
-// var times = 5;
-// var somma = 0;
+var times = 5;
+var somma = 0;
 
-// var numero;
+var numero;
 
-// for (var i = 1; i <= times; i++) {
-//     numero = parseInt( prompt('Inserice un numero ' + i + ' di ' + times) );
-//     console.log(numero);
+for (var i = 1; i <= times; i++) {
+    numero = parseInt( prompt('Inserice un numero ' + i + ' di ' + times) );
+    console.log(numero);
 
-//     somma += numero;
-// }
+    somma += numero;
+}
 
-// console.log(somma);
+console.log(somma);
